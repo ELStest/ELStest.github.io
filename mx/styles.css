@@ -1,9 +1,24 @@
 h1 {
   color: cornflowerblue;
 }
+p {
+  font-family: papyrus;
+}
+nav {
+  font-family: papyrus;
+}
 h1 {
   font-family: papyrus;
 }
-p {
-  font-family: arial;
+h2 {
+  font-family: papyrus;
+}
+h3 {
+  font-family: papyrus;
+}
+h4 {
+  font-family: papyrus;
+}
+h5 {
+  font-family: papyrus;
 }
