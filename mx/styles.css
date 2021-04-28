@@ -1,21 +1,16 @@
+body {
+	font-family: papyrus;
+}
+footer {
+  font-family: times;
+}
 p {
-  font-family: papyrus;
+  text-align: justify;
 }
-nav {
-  font-family: papyrus;
+a {
+  display: inline-block;
+  width: 240px;
 }
-h1 {
-  font-family: papyrus;
-}
-h2 {
-  font-family: papyrus;
-}
-h3 {
-  font-family: papyrus;
-}
-h4 {
-  font-family: papyrus;
-}
-h5 {
-  font-family: papyrus;
+span {
+	display: inline-block;
 }
