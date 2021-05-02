@@ -39,7 +39,9 @@ a, button {
 }
 a:hover {
 	background: #bfbfbf;
-	color: #ccccc;
+}
+a:focus {
+	background: #bfbfbf;
 }
 
 
@@ -62,9 +64,14 @@ p {
 }
 span {
 	display: inline-block;
-}
-#sectionfloat {
 	float: left;
+}
+#spanborder {
+	border: solid 1px #bfbfbf;
+	padding: 1px;
+}
+ul {
+	list-style-image: 
 }
 section, hr {
 	clear: both;
