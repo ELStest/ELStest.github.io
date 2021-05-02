@@ -1,11 +1,11 @@
 /* not working */
 @font-face {
 font-family: "Old_English";
-src: url("fonts/Old_English.ttf") format("truetype");
+src: url("https://elstest.github.io/mx/fonts/Old_English.ttf") format("truetype");
 }
 @font-face {
 font-family: "Papyrus_Local";
-src: url("fonts/Papyrus_Local.ttf") format("truetype");
+src: url("https://elstest.github.io/mx/fonts/Papyrus_Local.ttf") format("truetype");
 }
 /* not working */
 
@@ -16,8 +16,13 @@ body {
 	font-weight:normal;
 	font-style:normal;
 }
+main {
+	display: inline-block;
+	border-width: 1150px;
+	margin: 50px;
+}
 footer {
-  font-family: cambria;
+  font-family: papyrusregular;
 }
 p {
 	text-align: justify;
