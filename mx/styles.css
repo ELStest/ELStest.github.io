@@ -68,9 +68,9 @@ span {
 }
 #css_localisations_span {
 	border: solid 1px #bfbfbf;
-	padding: 1%;
-	width: 19%;
-	height: 220px;
+	padding: 0% 1%;
+	width: 18%;
+	height: 250px;
 	margin: 2px;
 }
 ul {
