@@ -1,11 +1,29 @@
+/* not working */
+@font-face {
+font-family: "Old_English";
+src: url("fonts/Old_English.ttf") format("truetype");
+}
+@font-face {
+font-family: "Papyrus_Local";
+src: url("fonts/Papyrus_Local.ttf") format("truetype");
+}
+/* not working */
+
+
+
 body {
-	font-family: papyrus;
+	font-family: Papyrus_Local;
+	font-weight:normal;
+	font-style:normal;
 }
 footer {
-  font-family: times;
+  font-family: cambria;
 }
 p {
-  text-align: justify;
+	text-align: justify;
+	font-family: Old_English;
+	font-weight:normal;
+	font-style:normal;
 }
 a {
   display: inline-block;
