@@ -66,9 +66,12 @@ span {
 	display: inline-block;
 	float: left;
 }
-#spanborder {
+#css_localisations_span {
 	border: solid 1px #bfbfbf;
-	padding: 1px;
+	padding: 1%;
+	width: 19%;
+	height: 220px;
+	margin: 2px;
 }
 ul {
 	list-style-image: 
@@ -76,7 +79,6 @@ ul {
 section, hr {
 	clear: both;
 }
-
 
 
 
