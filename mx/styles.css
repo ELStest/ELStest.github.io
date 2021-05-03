@@ -69,8 +69,8 @@ span {
 #css_localisations_span {
 	border: solid 1px #bfbfbf;
 	padding: 0% 1%;
-	width: 18%;
-	height: 250px;
+	width: 19%;
+	height: 310px;
 	margin: 2px;
 }
 ul {
@@ -80,7 +80,7 @@ section, hr {
 	clear: both;
 }
 ul {
-	list-style-image: square url("https://elstest.github.io/mx/logo_1.png")
+	list-style-image: url("https://elstest.github.io/mx/logo_1.png")
 }
 
 
