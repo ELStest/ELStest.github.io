@@ -1,0 +1,159 @@
+/*                    FONTS                    */
+@font-face {
+    font-family: 'papyrusregular';
+    src: url('https://elstest.github.io/mx/fonts/Papyrus_local_set/papyrus_local.woff2') format('woff2'),
+    	 url('mx/fonts/Papyrus_local_set/papyrus_local.woff2') format('woff2'),
+         url('https://elstest.github.io/mx/fonts/Papyrus_local_set/papyrus_local.woff') format('woff'),
+		 url('mx/fonts/Papyrus_local_set/papyrus_local.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+/*                    MAIN: GENERAL RULES                    */
+main {
+	display: inline-block;
+	border-width: 1170px;
+	margin: 40px;
+}
+body {
+	background-color: #dcdcdc;
+	font-family: 'papyrusregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+span {
+	display: inline-block;
+	float: left;
+}
+section, hr {
+	clear: both;
+}
+figure {
+	display: inline-block;
+	float: left;
+	background-color:#bfbfbf;
+}
+p {
+	text-align: justify;
+}
+ul {
+	list-style-image: url("https://elstest.github.io/mx/logo_1.png")
+}
+
+
+
+
+/*                    HEADER/NAV                    */
+h1 {
+	text-align: center; font-size: 350%;
+}
+section.nav {
+	width: 95%; margin: 0 auto;
+}
+nav a {
+	font-weight: bold;
+}
+
+
+
+
+
+/*                    A                    */
+nav a, nav button {
+	display: inline-block;
+	text-align: center;
+	padding: 2px;
+	text-decoration: none;
+
+}
+a:hover {
+	background: #bfbfbf;
+}
+a:focus {
+	background: #bfbfbf;
+}
+
+
+
+
+
+/*                    HISTOIRE                    */
+span.histoire {
+	overflow: auto;width: 40%;height: 300px;background-color: #fff20049; margin: 10px; border: solid 1px #bfbfbf;
+}
+p.histoire {
+	width: 85%; padding: 0% 7%;
+}
+figure.histoire {
+	width: 14%; height: 210px; border: outset; padding: 1%; margin: 2%;
+}
+figure.histoire figcaption {
+	font-size: 75%;
+	text-align: center;
+}
+
+
+
+
+/*                    LOCALISATIONS                    */
+
+span.localisations {
+	border: solid 1px #bfbfbf;
+	padding: 0% 1%;
+	width: 20%;
+	height: 300px;
+	margin: 3px;
+}
+
+
+
+
+
+
+
+/*                    PERSONNAGES                    */
+td {
+	border: 1px solid #bfbfbf;
+}
+table {
+	border-collapse: collapse;
+}
+thead {
+	background-color: #bfbfbf;
+	font-weight: bold;
+	text-align: center;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+
+
+
+/*                    ALENTOURS                    */
+
+
+
+
+
+
+
+
+/*                    LES MEILLIEURS VUES SUR LA VILLE                   */
+
+
+
+
+
+
+
+
+
+/*                    FOOTER                    */
+footer {
+	font-family: times;
+}
