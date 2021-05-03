@@ -20,17 +20,26 @@
 /*                    MAIN                    */
 main {
 	display: inline-block;
-	border-width: 1150px;
-	margin: 50px;
+	border-width: 1170px;
+	margin: 40px;
+}
+
+/*                    HEADER                    */
+h1 {
+	text-align: center; font-size: 350%;
+}
+section, hr {
+	clear: both;
+}
+section.nav {
+	width: 95%; margin: 0 auto;
 }
 
 
 
 
-
-
 /*                    A                    */
-a, button {
+nav a, nav button {
 	display: inline-block;
 	text-align: center;
 	padding: 2px;
@@ -46,11 +55,25 @@ a:focus {
 
 
 
+/*                    HISTOIRE                    */
+span.histoire {
+	overflow: auto;width: 40%;height: 300px;background-color: #fff20049;
+}
+p.histoire {
+	width: 85%; padding: 0% 7%;
+}
+figure.histoire {
+	width: 15%; border: outset; padding: 1%; background-color:#bfbfbf; margin: 2%;
+}
+
+
+
 
 
 
 
 body {
+	background-color: #dcdcdc;
 	font-family: 'papyrusregular', Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
@@ -66,23 +89,22 @@ span {
 	display: inline-block;
 	float: left;
 }
-#css_localisations_span {
+span.localisations {
 	border: solid 1px #bfbfbf;
 	padding: 0% 1%;
-	width: 19%;
-	height: 310px;
-	margin: 2px;
+	width: 20%;
+	height: 300px;
+	margin: 3px;
 }
 ul {
 	list-style-image: 
 }
-section, hr {
-	clear: both;
-}
 ul {
 	list-style-image: url("https://elstest.github.io/mx/logo_1.png")
 }
-
+nav a {
+	font-weight: bold;
+}
 
 
 
