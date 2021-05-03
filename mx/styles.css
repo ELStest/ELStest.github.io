@@ -79,7 +79,9 @@ ul {
 section, hr {
 	clear: both;
 }
-
+ul {
+	list-style-image: square url("https://elstest.github.io/mx/logo_1.png")
+}
 
 
 
