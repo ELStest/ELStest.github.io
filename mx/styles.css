@@ -20,7 +20,8 @@ main {
 	margin: 40px;
 }
 body {
-	background-color: #dcdcdc;
+	background-color: #dcdcdc;/*
+	background-image: url("");*/
 	font-family: 'papyrusregular', Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
@@ -113,10 +114,9 @@ span.localisations {
 
 
 
-
-
 /*                    PERSONNAGES                    */
 td {
+	padding: 1px 3px;
 	border: 1px solid #bfbfbf;
 }
 table {
