@@ -69,9 +69,10 @@ nav a, nav button {
 	text-align: center;
 	padding: 2px;
 	text-decoration: none;
+	transition: 1s ease;
 
 }
-a:hover {
+nav a:hover {
 	background: #bfbfbf;
 }
 a:focus {
@@ -121,6 +122,8 @@ td {
 }
 table {
 	border-collapse: collapse;
+	float: left;
+	margin: 3px;
 }
 thead {
 	background-color: #bfbfbf;
@@ -145,8 +148,10 @@ tr:nth-child(even) {
 
 /*                    LES MEILLIEURS VUES SUR LA VILLE                   */
 
-
-
+img.vues {
+	margin: 1%;
+	width: 46%;
+}
 
 
 
@@ -156,4 +161,16 @@ tr:nth-child(even) {
 /*                    FOOTER                    */
 footer {
 	font-family: times;
+}
+footer div {
+	display: inline-block;
+	width: 90px;
+	height: 60px;
+	margin: 3px;
+	padding: 4px;
+	transition: 1s ease;
+}
+footer div:hover {
+	transform: rotate(360deg);
+	background: #bfbfbf;
 }
