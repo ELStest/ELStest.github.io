@@ -16,8 +16,8 @@
 /*                    MAIN: GENERAL RULES                    */
 main {
 	display: inline-block;
-	width: 1160px;
-	margin: 0px 00px 0px 100px;
+	width: 1140px;
+	margin: 0px 00px 0px 110px;
 
 
 
@@ -62,10 +62,16 @@ ul {
 
 
 div.panel {
+	display: inline-block;
 	position: fixed;
-	z-index: -1;
+	width: 105px;
+	border: solid 2px 2px 0px 0px #bfbfbf;#
+	height: 900px
+	z-index: 1;
 }
-
+div.panel a {
+	margin: 3px;
+}
 
 
 /*                    HEADER/NAV                    */
@@ -88,11 +94,10 @@ section.nav {
 nav a {
 	font-weight: bold;
 }
-header{
+img.header_image {
 	position: static;
-	background-image: url("https://elstest.github.io/mx/header_back.png");
+	z-index: 2;
 }
-
 
 
 
