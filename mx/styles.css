@@ -16,8 +16,11 @@
 /*                    MAIN: GENERAL RULES                    */
 main {
 	display: inline-block;
-	border-width: 1170px;
-	margin: 40px;
+	width: 1160px;
+	margin: 0px 00px 0px 100px;
+
+
+
 }
 body {
 	background-color: #dcdcdc;/*
@@ -25,6 +28,12 @@ body {
 	font-family: 'papyrusregular', Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
+
+
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
 }
 span {
 	display: inline-block;
@@ -48,9 +57,30 @@ ul {
 
 
 
+
+/*                    PANEL                    */
+
+
+div.panel {
+	position: fixed;
+	z-index: -1;
+}
+
+
+
 /*                    HEADER/NAV                    */
+header div {
+	height: 120px;
+}
 h1 {
-	text-align: center; font-size: 350%;
+	text-align: center;
+	font-size: 350%;
+	transition: 1s ease;
+}
+h1:hover {
+	font-size: 352%;
+	opacity: 0.6;
+	letter-spacing: 1px;
 }
 section.nav {
 	width: 95%; margin: 0 auto;
@@ -58,7 +88,10 @@ section.nav {
 nav a {
 	font-weight: bold;
 }
-
+header{
+	position: static;
+	background-image: url("https://elstest.github.io/mx/header_back.png");
+}
 
 
 
