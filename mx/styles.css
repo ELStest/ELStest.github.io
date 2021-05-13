@@ -16,8 +16,8 @@
 /*                    MAIN: GENERAL RULES                    */
 main {
 	display: inline-block;
-	width: 1140px;
-	margin: 0px 00px 0px 110px;
+	width: 1110px;
+	margin: 0px 00px 0px 130px;
 
 
 
@@ -46,6 +46,8 @@ figure {
 	display: inline-block;
 	float: left;
 	background-color:#bfbfbf;
+	border: outset;
+	padding: 1%;
 }
 p {
 	text-align: justify;
@@ -58,19 +60,57 @@ ul {
 
 
 
+
+
+
+/*                                                                                              _________BORDECIEL_________                    */
+/*                    CHATELLERIES                    */
+
+p.chatelleries {
+	font-size: 110%;
+}
+
+#bl:hover ~ #b {
+    background: #ccc
+}
+
+
+
+
+
+
+/*                                                                                              _________CHATELLERIE_________                    */
+
+
+
+
+
+
+
+
+
+
+/*                                                                                              _________VILLE_________                    */
 /*                    PANEL                    */
 
 
 div.panel {
 	display: inline-block;
 	position: fixed;
-	width: 105px;
-	border: solid 2px 2px 0px 0px #bfbfbf;#
-	height: 900px
+	width: 115px;
+	border: solid 2px 2px 0px 0px #bfbfbf;
+	height: 100vh;
 	z-index: 1;
+	background-color: lightgrey;
 }
-div.panel a {
-	margin: 3px;
+span.panel{
+	padding: 5px;
+}
+span.panel a{
+	display: inline-block;
+	margin: 8px 0px;
+	font-weight: bold;
+	width: 100%;
 }
 
 
@@ -89,7 +129,8 @@ h1:hover {
 	letter-spacing: 1px;
 }
 section.nav {
-	width: 95%; margin: 0 auto;
+	width: 100%; margin: 0 auto;
+	width: 1100px;
 }
 nav a {
 	font-weight: bold;
@@ -102,15 +143,16 @@ img.header_image {
 
 
 /*                    A                    */
-nav a, nav button {
+a, button {
 	display: inline-block;
 	text-align: center;
-	padding: 2px;
-	text-decoration: none;
+	padding: 1px;
 	transition: 1s ease;
-
 }
-nav a:hover {
+a {
+	text-decoration: none;
+}
+a:hover {
 	background: #bfbfbf;
 }
 a:focus {
@@ -129,7 +171,7 @@ p.histoire {
 	width: 85%; padding: 0% 7%;
 }
 figure.histoire {
-	width: 14%; height: 210px; border: outset; padding: 1%; margin: 2%;
+	width: 14%; height: 210px; margin: 2%;
 }
 figure.histoire figcaption {
 	font-size: 75%;
@@ -207,6 +249,7 @@ footer div {
 	margin: 3px;
 	padding: 4px;
 	transition: 1s ease;
+	float: right;
 }
 footer div:hover {
 	transform: rotate(360deg);
