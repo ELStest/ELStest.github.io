@@ -1,0 +1,258 @@
+/*                    FONTS                    */
+@font-face {
+    font-family: 'papyrusregular';
+    src: url('https://elstest.github.io/mx/fonts/Papyrus_local_set/papyrus_local.woff2') format('woff2'),
+    	 url('mx/fonts/Papyrus_local_set/papyrus_local.woff2') format('woff2'),
+         url('https://elstest.github.io/mx/fonts/Papyrus_local_set/papyrus_local.woff') format('woff'),
+		 url('mx/fonts/Papyrus_local_set/papyrus_local.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+/*                    MAIN: GENERAL RULES                    */
+header, main, footer {
+	display: inline-block;
+	width: 1000px;
+	margin: 0px 120px 0px 130px;
+}
+body {
+	background-color: #dcdcdc;/*
+	background-image: url("");*/
+	font-family: 'papyrusregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+
+
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+span {
+	display: inline-block;
+	float: left;
+}
+section, hr {
+	clear: both;
+}
+figure {
+	display: inline-block;
+	float: left;
+	background-color:#bfbfbf;
+	border: outset;
+	padding: 1%;
+}
+p {
+	text-align: justify;
+}
+ul {
+	list-style-image: url("https://elstest.github.io/mx/logo_1.png")
+}
+
+
+
+
+
+/*                                                                                              _________LE CLOS_________                    */
+
+
+
+
+
+
+
+
+
+
+/*                                                                                              _________VILLE_________                    */
+/*                    NAV_PANEL/NAV_TOP                    */
+
+section.nav_panel {
+  height: 100vh;
+  width: 112px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+section.nav_panel a {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+}
+section.nav_panel a:hover {
+  color: #f1f1f1;
+}
+a.back_to_le_clos {
+	background-color: #81818157;
+}
+
+
+
+
+
+
+
+nav a, .back_to_le_clos {
+	font-weight: bold;
+}
+nav.nav_top {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+nav.nav_top a {
+	display: inline-block;
+	text-align: center;
+	padding: 3px 2px;
+	transition: 1s ease;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	background: #bfbfbf;
+}
+
+
+
+
+
+
+
+/*                    HEADER                    */
+header div {
+	height: 80px;
+}
+h1 {
+	text-align: center;
+	font-size: 320%;
+	transition: 1s ease;
+}
+h1:hover {
+	opacity: 0.6;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+/*                    HISTOIRE                    */
+span.histoire {
+	overflow: auto;
+	width: 40%;
+	height: 300px;
+	background-color: #fff20049; 
+	margin: 10px; 
+	border: solid 1px #bfbfbf;
+}
+p.histoire {
+	width: 85%; padding: 0% 7%;
+}
+figure.histoire {
+	width: 14%; height: 210px; margin: 2%;
+}
+figure.histoire figcaption {
+	font-size: 75%;
+	text-align: center;
+}
+
+
+
+
+/*                    LOCALISATIONS                    */
+figure.localisations {
+	width: 54%; 
+	margin: 0% 4px 2% 0%;
+}
+span.localisations {
+	border: solid 1px #bfbfbf;
+	width: 20%;
+	height: 300px;
+	margin: 3px;
+}
+span.localisations h3 {
+	margin: 10px 0px 5px 15px;
+}
+
+
+
+
+
+/*                    PERSONNAGES                    */
+td {
+	padding: 2px 4px;
+	border: 1px solid #bfbfbf;
+}
+table {
+	border-collapse: collapse;
+	margin: 5px;
+	float: left;
+	font-size: 87%;
+}
+thead {
+	background-color: #bfbfbf;
+	font-weight: bold;
+	text-align: center;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.table_1 td:nth-child(1) {
+	width: 110px;
+}
+.table_2 td:nth-child(1) {
+	width: 100px;
+}
+td:nth-child(3) {
+	width: 130px;
+}
+
+
+
+
+/*                    ALENTOURS                    */
+
+
+
+
+
+
+
+
+/*                    LES MEILLIEURS VUES SUR LA VILLE                   */
+
+img.vues {
+	margin: 1%;
+	width: 47%;
+}
+
+
+
+
+
+
+/*                    FOOTER                    */
+footer {
+	font-family: times;
+}
+footer div {
+	display: inline-block;
+	width: 90px;
+	height: 60px;
+	margin: 3px;
+	padding: 4px;
+	transition: 1s ease;
+}
+footer div:hover {
+	transform: rotate(360deg);
+	background: #bfbfbf;
+}
